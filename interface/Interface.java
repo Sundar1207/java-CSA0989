@@ -1,8 +1,7 @@
 // -> defult method and private methods
-// -> private methods can't access the implement class 
-// -> interfase laa olla ststic methods laa can't call 
+// -> private methods can't access the implement class  
 // -> only private static methods call the public static methods
-// ->private method only access interfase 
+// -> private method only access interfase 
 // -> can't create obj for interface
 // -> default + private or static + private static ( don't neet the obj , you <interface name >.<method name>).
 // -> implements panna classkku obj create panni methods call do.
