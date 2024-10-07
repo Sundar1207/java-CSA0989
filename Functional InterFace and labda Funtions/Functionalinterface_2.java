@@ -1,5 +1,5 @@
 // it is return type labda expresstion
-
+@FunctinalInterface 
 interface a 
 {
     static void main(int a , int b)
