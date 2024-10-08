@@ -1,0 +1,28 @@
+import java.util.TreeSet;
+
+public class TreeSetExample {
+    public static void main(String[] args) {
+        // Create a TreeSet
+        TreeSet<Integer> set = new TreeSet<>();
+
+        // Add elements
+        set.add(10);
+        set.add(5);
+        set.add(20);
+
+        // Iterate (elements are in sorted order)
+        for (Integer num : set) {
+            System.out.println(num);
+        }
+
+        // Get the first and last elements
+        System.out.println("First element: " + set.first());
+        System.out.println("Last element: " + set.last());
+
+        // Remove an element
+        set.remove(5);
+
+        // Size of the TreeSet
+        System.out.println("Size of TreeSet: " + set.size());
+    }
+}
